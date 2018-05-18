@@ -6,14 +6,34 @@
 	<meta name ="description" content="TMS">
 	<meta name="author" content="Karol López">
 </head>
+<style>
+  #menu {
+    padding: 0;
+  }
+ 
+  #menu li {
+    display: inline;
+  }
+  #menu li a {
+    font-family: Arial;
+    font-size: 15px;
+    text-decoration: none;
+    
+    padding: 10px;
+ 
+ }
+</style>
+
 <body>
-	<header align ="center">
+
+
+	<header >
 		<h2>TodosMisServicios.ec </h2>	
 	</header>
 	<nav>
-		<ul>
+		<ul id ="menu">
            <li>
-           <a href="servicios.html">Principal</a>
+           <a href="principal.html">Principal</a>
            </li>          
            <li>
             <a href="servicios.html">¿Quienes Somos?</a>
@@ -26,18 +46,18 @@
            </li> 
         </ul>
 	</nav>
-	<aside align ="center">
+	<aside >
 
-		<p> <h2>Envíanos tus opiniones</h2> </p>
+		<p> <h2>Envíanos tus opiniones</h2> <p>
 		<label> Nombre Completos:</label>
-        <input name="nombres" type="text" /><br>
-        
-        <label> Correo Electrónico:</label>
-        <input name="correo" type="text" /><br>
+      <input name="nombres" type="text" /><br>
+      
+      <label> Correo Electrónico:</label>
+      <input name="correo" type="text" /><br>
 
-        <label> Utilidad del sitio:</label>
-        
-        <input type="radio" id="util1"
+      <label> Utilidad del sitio:</label>
+      
+      <input type="radio" id="util1"
      	name="utilidad" value="nada">
     	<label for="util1">Phone</label>
 
@@ -59,16 +79,18 @@
 
     	<label> Edad:</label><br>
     	<label> Provincia:</label><br>
-    	<label> Provincia:</label><br>
+    	<label> Comentarios:</label><br>
     	<textarea></textarea>
 		
 	</aside>
 	<section>
 		<h2> ........ </h2>
 	</section>
-	<footer>
-		  <h2>(c) 2018 </h2>
-	</footer>
+	
+  <footer> 
+    <div>(c)  El contenido de esta obra es de propiedad intelectual de nuestro grupo. Todos los derechos reservado. Prohibida su reproducción tota, parcial, comunicación o distribución sin autorización previa del titular. 2018 </div> 
+  </footer>
+  
 </body>	
 </html>
 
