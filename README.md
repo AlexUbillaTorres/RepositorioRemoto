@@ -1,3 +1,3 @@
-# Repositorio con los talleres de DAW
+# Talleres Servicios de DAW
 Integrantes:
 Alex Ubilla Torres, Karol Lopéz Espinoza
