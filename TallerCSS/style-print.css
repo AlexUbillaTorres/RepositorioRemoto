@@ -1,0 +1,24 @@
+*{
+  text-align: center;
+}
+
+img{
+  display: none;
+}
+
+img+p::first-letter{
+font-size: 2em;
+font-weight: bold;
+}
+
+section div[class^="card"]{
+  margin: 10px;
+  padding: 10px;
+  height: 50%;
+  width: 25%;
+  display: inline-block;
+}
+
+div.card :nth-child(4){
+  display: inline-block;
+}
