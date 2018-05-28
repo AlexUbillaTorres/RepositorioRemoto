@@ -1,0 +1,23 @@
+img[alt^=cat]{
+	border-style: dashed;
+}
+img + p::first-letter{
+	font-size: 2em;
+}
+img:hover{
+	opacity: 0.5;
+	cursor:pointer;
+}
+div.card{
+	display: inline-block;
+	border-style: solid ;
+	padding: 10px;
+	background-color:  #fff5ee;
+	margin: 2px;
+	width: 40%;
+	height: 50%;
+
+}
+div.card :nth-child(4){
+	display: none;
+}

@@ -1,0 +1,18 @@
+h1{
+  text-align: center;
+}
+#menu {
+    padding: 0;
+  }
+ 
+#menu li {
+    display: inline;
+    border-style: solid;
+  }
+#menu li a {
+    font-family: Arial;
+    font-size: 15px;
+    text-decoration: none;
+    
+    padding: 10px;
+}

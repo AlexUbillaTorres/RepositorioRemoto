@@ -1,0 +1,16 @@
+div.card{
+	display: inline-block;
+	border-style: solid ;
+	padding: 10px;
+	background-color:  #fff5ee;
+	margin: 2px;
+	width: 20%;
+	height: 50%;
+
+}
+p ::first-letter{
+	display: none;
+}
+img{
+	display: none;
+}
